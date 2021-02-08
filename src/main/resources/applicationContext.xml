@@ -22,15 +22,14 @@
     </bean>
 
 
-
-    <bean id="musicPlayer"
+  <!-- <bean id="musicPlayer"
           class="com.first.spring.MusicPlayer"
           scope="prototype">
         <property name="music" ref="musicBean"/>
 
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
+    </bean>-->
 
 </beans>
 
