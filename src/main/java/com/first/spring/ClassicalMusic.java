@@ -1,9 +1,9 @@
 package com.first.spring;
 
-public class ClassicalMusic implements Music{
-    private ClassicalMusic(){ }
+public class ClassicalMusic implements Music {
+    private ClassicalMusic() {}
 
-    public static ClassicalMusic getClassicalMusic(){
+    public static ClassicalMusic getClassicalMusic() {
         return new ClassicalMusic();
     }
 
@@ -14,6 +14,7 @@ public class ClassicalMusic implements Music{
     public void doMyDestroy() {
         System.out.println("Doing my destruction");
     }
+
     @Override
     public String getSong() {
         return "Hungarian Rhapsody";
